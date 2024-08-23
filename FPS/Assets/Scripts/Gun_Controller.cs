@@ -5,6 +5,7 @@ public class Gun_Controller : MonoBehaviour
     // Gun settings
     public float fireRate = 10f; // shots per second
     public float bulletSpeed = 20f;
+    GameManager gm;
     public int bulletDamage = 10;
 
     // Bullet prefab
@@ -14,12 +15,20 @@ public class Gun_Controller : MonoBehaviour
     public Transform gunBarrel; // set this to the tip of the gun barrel in the Inspector
 
     private float nextFireTime = 0f;
+    private void Start()
+    {
+    gm= GameObject.FindObjectOfType<GameManager>();
+    }
 
     void Update()
     {
         if (Input.GetButton("Fire1") && Time.time > nextFireTime)
         {
             Shoot();
+        }
+        if (Input.GetButton("Escape"))
+        {
+            gm.Pause();   
         }
     }
 

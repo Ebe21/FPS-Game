@@ -5,17 +5,25 @@ using UnityEngine;
 
 public class Enemy_Move : MonoBehaviour
 {
-    public float mspeed;
+    GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gm = GameObject.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 0, -1) * Time.deltaTime * mspeed;
+        
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            gm.healthReduce();
+        }
+    }
 }

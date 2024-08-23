@@ -235,8 +235,8 @@ GameObject:
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 0
 --- !u!4 &434783358743844523
 Transform:
@@ -941,6 +941,62 @@ PrefabInstance:
     - target: {fileID: 77033525909779886, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
       propertyPath: m_Name
       value: M1911 Handgun_Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 77141491678501206, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 77141491678501206, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813137854009645059, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813137854009645059, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244487, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244487, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244489, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244489, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244491, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244491, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244493, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244493, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244495, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876266287165244495, guid: 17821e3c0da6df74ca69b463b5bbe14d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
