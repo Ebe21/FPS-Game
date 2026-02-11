@@ -17,7 +17,7 @@ public class Gun_Controller : MonoBehaviour
     private float nextFireTime = 0f;
     private void Start()
     {
-    gm= GameObject.FindObjectOfType<GameManager>();
+        gm = FindFirstObjectByType<GameManager>();
     }
 
     void Update()
